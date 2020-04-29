@@ -5,7 +5,7 @@
   Invenio App RDM is free software; you can redistribute it and/or modify it
   under the terms of the MIT License; see LICENSE file for more details.
 #}
-{% from "invenio_app_rdm/search/macros/searchbar.html" import render_searchbar %}
+{% from "invenio_app_rdm/macros/searchbar.html" import render_searchbar %}
 
 {%- extends config.THEME_HEADER_TEMPLATE %}
 
@@ -31,7 +31,7 @@
         {%- block search_middle %}
             <div class="nine wide column">
             <div class="ui container">
-                {{ render_searchbar() }}
+                {{ render_searchbar('search-bar') }}
             </div>
             </div>
         {% endblock search_middle %}
@@ -39,7 +39,7 @@
             <div class="four wide column">
               <div class="ui container">
                   <div class="ui buttons">
-                  <a class="ui button" role="button" href="/coming-soon">Upload</a
+                  <a class="ui button" role="button" href="/deposits">Uploads</a
                   ><a class="ui button" role="button" href="/coming-soon">Communities</a>
                   </div>
               </div>
