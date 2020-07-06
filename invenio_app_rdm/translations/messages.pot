@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: invenio-app-rdm 0.10.1\n"
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
-"POT-Creation-Date: 2020-07-06 13:24+0300\n"
+"POT-Creation-Date: 2020-07-06 14:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,57 +48,53 @@ msgstr ""
 #: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:19
 #, python-format
 msgid ""
-"\n"
-"            Configure the datamodel, resource types, permissions and much"
-" more to make it suit your needs! For more\n"
+"Configure the\n"
+"            datamodel, resource types, permissions and much more to make "
+"it suit your needs! For more\n"
 "            information on how to do it visit the <a "
 "href=\"%(configuration_link)s\">configuration\n"
-"              section in the docs</a>.\n"
-"            "
+"              section in the docs</a>."
 msgstr ""
 
-#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:30
+#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:29
 msgid "Customize"
 msgstr ""
 
-#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:33
+#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:32
 #, python-format
 msgid ""
-"\n"
-"              Customize the layout and adapt the styling to match your "
+"Customize\n"
+"              the layout and adapt the styling to match your "
 "institution's. See how to do so <a\n"
 "                href=\"%(configuration_link)s\">here</a>. You can also "
-"add new\n"
-"              functionality\n"
-"              using <a href=\"%(extensions_link)s\">supported "
-"plugins</a>, or <a\n"
-"                href=\"%(custom_extension_link)s\">writing your own</a>.\n"
-"              "
+"add new functionality using <a\n"
+"                href=\"%(extensions_link)s\">supported plugins</a>, or <a"
+" href=\"%(custom_extension_link)s\">writing\n"
+"                your own</a>."
 msgstr ""
 
-#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:47
+#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:44
 msgid "Deploy it!"
 msgstr ""
 
-#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:49
+#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:46
 #, python-format
 msgid ""
-"\n"
-"            Use the Helm charts to deploy your InvenioRDM instance. You "
-"can use the Helm chart to <a\n"
-"              href=\"%(deployment_link)s\">deploy in OpenShift</a>.\n"
-"            "
+"Use the Helm charts to deploy your\n"
+"            InvenioRDM instance. You can use the Helm chart to <a "
+"href=\"%(deployment_link)s\">deploy in\n"
+"              OpenShift</a>."
 msgstr ""
 
-#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:61
+#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:57
 msgid "Docs"
 msgstr ""
 
-#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:64
+#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:60
 msgid "Code"
 msgstr ""
 
-#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:70
+#: invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/frontpage.html:66
 msgid "Brought to you by"
 msgstr ""
 
