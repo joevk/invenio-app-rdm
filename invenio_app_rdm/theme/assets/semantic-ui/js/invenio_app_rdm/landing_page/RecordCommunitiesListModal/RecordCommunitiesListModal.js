@@ -20,7 +20,7 @@ export class RecordCommunitiesListModal extends Component {
   }
 
   render() {
-    const { recordCommunitySearchEndpoint, totalCommunities } = this.props;
+    const { recordCommunitySearchEndpoint, totalCommunities, record } = this.props;
     const { modalOpen } = this.state;
 
     return (
@@ -53,6 +53,7 @@ export class RecordCommunitiesListModal extends Component {
         <Modal.Content>
           <RecordCommunitiesSearch
             recordCommunitySearchEndpoint={recordCommunitySearchEndpoint}
+            record={record}
           />
         </Modal.Content>
 
@@ -69,4 +70,5 @@ export class RecordCommunitiesListModal extends Component {
 RecordCommunitiesListModal.propTypes = {
   recordCommunitySearchEndpoint: PropTypes.string.isRequired,
   totalCommunities: PropTypes.number.isRequired,
+  record: PropTypes.object.isRequired,
 };
